@@ -12,4 +12,4 @@ Better Print_end Macro for Beacon
 # Tools
 
 Macro to calibrate and automatically compensate for thermal expansion of the hotend.  
-[Thermal Expansion Compensation Macro](Tools/Thermal_Expansion_Compensation/Temperature_expansion_compensation.md)
+[Thermal Expansion Compensation Macro](Tools/Thermal_Expansion_Compensation/Thermal_expansion_compensation.md)
