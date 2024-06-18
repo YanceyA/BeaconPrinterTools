@@ -35,11 +35,11 @@ BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET: 275
 > Probing at higher temperatures, 250C, can cause damage to some build plates. Ensure that your setup can handle 250C contact probing without damage. Refer to the beacon contant documentation for additional details. 
 
 # Setup Steps
-1. Copy macro block into your config
-2. Review/adjust the default variables in BEACON (reccomended to use defaults right now)
-3. Add lines to PRINT_START and PRINT_END macros
+1. Copy macro block into your config as appropriate for your setup: [macro_thermal_expansion_compensation.cfg](macro_thermal_expansion_compensation.cfg)
+2. Review/adjust the default variables in BEACON section (defaults reccomended)
+3. Add lines to PRINT_START and PRINT_END macros to enable compensation
 4. Restart klipper
-5. Run BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET to perform the nozzle expansion calibration.
+5. Run BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET to perform the thermal expansion calibration.
 6. Review the variables file to ensure there is a nozzle_expansion_coefficient entry.
   ```
   [Variables]
