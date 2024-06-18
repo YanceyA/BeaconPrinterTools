@@ -3,11 +3,12 @@ Repository of useful config setups and tools for Beacon probe users.
 
 # Config Setups
 
-Better Print_start Macro for Beacon  
-[Print_end](Config/Print_start/Print_start.md)
+A beacon specific Print_start Macro   
+[Print_start](Config/Print_start/Print_start.md)
 
-Better Print_end Macro for Beacon   
-[Print_start](Config/Print_end/Print_end.md)
+*Work in Progress*  
+A beacon specific Print_end Macro for Beacon   
+[Print_end](Config/Print_end/Print_end.md)
 
 # Tools
 
