@@ -22,5 +22,6 @@ This is a full featured print start macro from Beacon 3d probe users.
 - Part Cool fan off and heat to print temp
 - Set temp expansion compensation
 - Apply z_adjust if required
-- Purge line if configuredv
+- Purge line if configured
 
+(Shoutout to Brazuka on discord for the fast_QGL macro!)
