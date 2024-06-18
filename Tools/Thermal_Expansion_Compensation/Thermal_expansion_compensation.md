@@ -37,10 +37,11 @@ BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET: 275
 # Setup Steps
 1. Copy macro block into your config as appropriate for your setup: [macro_thermal_expansion_compensation.cfg](macro_thermal_expansion_compensation.cfg)
 2. Review/adjust the default variables in BEACON section (defaults reccomended)
-3. Add lines to PRINT_START and PRINT_END macros to enable compensation
-4. Restart klipper
-5. Run BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET to perform the thermal expansion calibration.
-6. Review the variables file to ensure there is a nozzle_expansion_coefficient entry.
+3. Ensure that [respond] is present in the printer config to enable status messages
+4. Add lines to PRINT_START and PRINT_END macros to enable compensation
+5. Restart klipper
+6. Run BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET to perform the thermal expansion calibration.
+7. Review the variables file to ensure there is a nozzle_expansion_coefficient entry.
   ```
   [Variables]
   nozzle_expansion_coefficient = 0.04749999999994525
