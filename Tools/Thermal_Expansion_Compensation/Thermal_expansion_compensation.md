@@ -25,7 +25,7 @@ filename: ~/printer_data/config/variables.txt
 - Max nozzle contact temperature set to >250C. The default maximum probe temperature is set to 180C and will cause an error during 250C probing.
 ```
 [beacon]
-BEACON_CALIBRATE_NOZZLE_TEMP_OFFSET: 275
+contact_max_hotend_temperature: 275
 ```
 
 > [!CAUTION]
