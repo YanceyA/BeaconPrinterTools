@@ -2,7 +2,7 @@
 This is a full featured print start macro from Beacon 3d probe users. 
 
 # Steps
-1. Copy file or contents into your printer config [Print Start Macro](bacon_print_start.cfg)
+1. Copy file or contents into your printer config [Print Start Macro](print_start.cfg)
 2. Review macro contents and enable any features required
 3. Add in the "Start g-code" for your slicer of choice.
 

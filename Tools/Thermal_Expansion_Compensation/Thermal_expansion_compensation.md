@@ -29,7 +29,18 @@ contact_max_hotend_temperature: 275
 ```
 
 > [!CAUTION]
-> Probing at higher temperatures, 250C, can cause damage to some build plates. Ensure that your setup can handle 250C contact probing without damage. Refer to the beacon contant documentation for additional details. 
+> **CRITICAL SAFETY WARNING**: Probing at higher temperatures (250C) can cause damage to some build plates. Ensure that your setup can handle 250C contact probing without damage. 
+> 
+> **Verified compatible surfaces**: 
+> - Spring steel sheets with PEI coating (most common)
+> - Glass beds (borosilicate)
+> 
+> **DO NOT USE WITH**:
+> - Magnetic flexible beds without high-temp rating
+> - Plastic build surfaces
+> - Unknown or untested surfaces
+> 
+> Refer to the beacon contact documentation for additional details. 
 
 # Setup Steps
 1. Copy macro block into your config as appropriate for your setup: [macro_thermal_expansion_compensation.cfg](macro_thermal_expansion_compensation.cfg)
